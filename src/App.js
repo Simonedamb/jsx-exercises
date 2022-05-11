@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Welcome from "./Welcome";
+import Result from "./Result";
 
 const hello = "Hello, World!";
 
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         <h1>{hello}</h1>
         <Welcome />
+        <Result />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
